@@ -1,0 +1,1 @@
+docker run -d -e POSTGRES_PASSWORD=asm123 -p 5432:5432 postgres

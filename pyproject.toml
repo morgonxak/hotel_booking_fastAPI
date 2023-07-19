@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "app"
+version = "0.0.1"
+description = "Сервис бронированиея отеля"
+authors = ["Шумелев Дмитрий <d.shumelev@i-digit.ru>"]
+
+[tool.poetry.dependencies]
+python = "^3.10, <3.11"
+fastapi = "^0.100.0"
+uvicorn = "^0.22.0"
+pydantic-settings = "^2.0.2"
+SQLAlchemy = "^2.0.19"
+alembic = "^1.11.1"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+dev = "app.main:start"
