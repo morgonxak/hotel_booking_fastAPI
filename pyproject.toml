@@ -2,7 +2,7 @@
 name = "app"
 version = "0.0.1"
 description = "Сервис бронированиея отеля"
-authors = ["Шумелев Дмитрий <d.shumelev@i-digit.ru>"]
+authors = ["Шумелев Дмитрий <cmit.dima@gmail.com"]
 
 [tool.poetry.dependencies]
 python = "^3.10, <3.11"
@@ -11,6 +11,7 @@ uvicorn = "^0.22.0"
 pydantic-settings = "^2.0.2"
 SQLAlchemy = "^2.0.19"
 alembic = "^1.11.1"
+asyncpg = "^0.28.0"
 
 
 [build-system]
