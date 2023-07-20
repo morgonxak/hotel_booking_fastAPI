@@ -5,7 +5,7 @@ description = "Сервис бронированиея отеля"
 authors = ["Шумелев Дмитрий <cmit.dima@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10, <3.11"
 fastapi = "^0.100.0"
 uvicorn = "^0.22.0"
 SQLAlchemy = "^2.0.19"
